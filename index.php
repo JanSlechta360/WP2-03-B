@@ -1,13 +1,10 @@
-
 <?php 
-
 $amount = filter_input(INPUT_POST, 'amount');
 define('EUR_CZK', 27);
 define('GBP_CZK', 30);
 define('USD_CZK', 23);
 $sub = filter_input(INPUT_POST, 'odeslat');
 $switch =  filter_input(INPUT_POST, 'switch');
-
 ?>
 
 <!DOCTYPE html>
@@ -67,7 +64,6 @@ Peníze: <input type="text" name="amount" id="amount"> <br>
     </form>
 <?php
 } ?>
-
 
 </body>
 </html>
