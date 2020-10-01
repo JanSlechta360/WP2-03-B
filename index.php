@@ -21,6 +21,7 @@ $switch =  filter_input(INPUT_POST, 'switch');
 if (isset($sub)) {
 
     switch ($switch) {
+        case 'czk'
     case 'czk_eur': ?>
         <?= $amount ?> Kč je <?= $amount / EUR_CZK ?> Eur.
         <?php
@@ -51,6 +52,7 @@ if (isset($sub)) {
         <?php
         break;
                     }
+
 } else { ?>
     <form action="index.php" method="post">
 Peníze: <input type="text" name="amount" id="amount"> <br>
