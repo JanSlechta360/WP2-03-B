@@ -61,9 +61,13 @@ if (isset($sub)) {
         $curencyto = " CZK " ;
         break;
                     }
+<<<<<<< HEAD
         $all =$text . $amount . $curencyfrom . " = " . $final . $curencyto ?>
 <?= $all ?>
 <?php
+=======
+
+>>>>>>> 15d83848837453f88cb998e9e4508b46f3a21f0a
 } else { ?>
     <form action="index.php" method="post">
 Peníze: <input type="text" name="amount" id="amount"> <br>
